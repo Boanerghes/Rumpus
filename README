@@ -1,5 +1,24 @@
-= Rumpus
+Rumpus
+------
 A Last.fm scrobbler for Grooveshark
 Info about usage and configuration can be found at http://rumpus.altervista.org
 
+This is the code as it appeared at the end of a small period of intense developement. This little program was intended for my personal use only, so there may be classes absolutely not commented (specifically in the graph package, that was my first and terrible experience in a -quite- complex GUI project) and difficult to read.
 
+However, you can simply try the program with
+
+  java scrobbler.Rumpus
+
+after compiling Rumpus.java, in the scrobbler package.
+
+PACKAGES
+========
+1. scrobbler: this package contains the main class and its helper.
+2. util: contains some useful script, starting from the last.fm connection utilities, to the md5 script etc.
+3. graph: helps with the various graphic panel.
+
+PROBLEMS
+========
+Since I stopped working on the Rumpus, a lot of pieces are out of date. The We Are Hunted scrobbling is now broken and the last.fm authorization process wouldn't need the password.
+
+Anyway, there are some pieces of code that I often use when trying things out, and I'm quite fond of this code. Maybe I'll try to rewrite the entire program in 'a' future, since there aren't efficient (and free) scrobblers for Grooveshark right now. (I currently use http://like.fm to scrobble)
