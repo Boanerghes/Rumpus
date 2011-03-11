@@ -11,6 +11,19 @@ public class DataFile {
 	
 	/**
 	 * number of elements inside the data file (rows number)
+	 * the meaning of each line is as follows:
+	 * 0 -> Grooveshark username
+	 * 1 -> Last.fm username
+	 * 2 -> Last.fm password as md5
+	 * 3 -> last scrobbling date. default value 200912010000
+	 * 4 -> Last.fm session key
+	 * 5 -> last favorite synchronization date. default value 200912010000
+	 * 6 -> scrobbling method
+	 *      0: schedule scrobbling without starting WAH scrobbling panel
+	 *      1: schedule scrobbling and open WAH scrobbling panel
+	 *      2: scrobble new songs and exit
+	 *      3: scrobble new songs and start WAH panel
+	 *      4: only start WAH scrobbling panel
 	 */
 	public static final int DATA_ELEMENTS = 8;
 	
