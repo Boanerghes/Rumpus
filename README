@@ -9,7 +9,9 @@ However, you can simply try the program with
 
   java scrobbler.Rumpus
 
-after compiling Rumpus.java, in the scrobbler package.
+after compiling Rumpus.java, in the scrobbler package, with
+
+  javac scrobbler/Rumpus.java
 
 PACKAGES
 ========
