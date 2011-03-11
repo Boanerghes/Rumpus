@@ -24,6 +24,7 @@ public class DataFile {
 	 *      2: scrobble new songs and exit
 	 *      3: scrobble new songs and start WAH panel
 	 *      4: only start WAH scrobbling panel
+	 * 7 -> We Are Hunted username
 	 */
 	public static final int DATA_ELEMENTS = 8;
 	
